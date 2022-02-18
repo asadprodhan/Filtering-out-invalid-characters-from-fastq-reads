@@ -4,7 +4,7 @@
 ## **Background**
 
 
-A fastq read consists of four lines separated by tab. Line 1 is the ID of the read which starts with a “@’ symbol. Line 2 is the read itself i.e. the base sequence. Line 3 is generally just a “+’ sign, that acts as a separator between the base sequence and the quality scores. Finally, Line 4 is a sequence quality scores. These quality scores the ASCII (American Standard Code for Information Interchange) characters, one for each base. However, these four lines together are considered as a complete entry of a sequencing read in fastq format.
+A fastq read consists of four lines separated by tab. Line 1 is the ID of the read which starts with a “@’ symbol. Line 2 is the read itself i.e. the base sequence. Line 3 is generally just a “+’ sign, that acts as a separator between the base sequence and the quality scores. Finally, Line 4 is a sequence quality scores. These quality scores are ASCII (American Standard Code for Information Interchange) characters, one for each base. However, these four lines together are considered as a complete entry of a sequencing read in fastq format.
 
 
 
