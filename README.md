@@ -4,6 +4,7 @@
 ## **Background**
 
 
+
 A fastq read consists of four lines separated by tab. Line 1 is the ID of the read which starts with a “@’ symbol. Line 2 is the read itself i.e. the base sequence. Line 3 is generally just a “+’ sign, that acts as a separator between the base sequence and the quality scores. Finally, Line 4 is a sequence quality scores. These quality scores the ASCII (American Standard Code for Information Interchange) characters, one for each base. However, these four lines together are considered as a complete entry of a sequencing read in fastq format.
 
 
@@ -13,7 +14,9 @@ When the downstream algarithm such as ‘flye’ genome assembler reads the fast
 
 
 
- ![alt text](https://github.com/asadprodhan/Filtering-out-invalid-characters-from-fastq-reads/blob/main/Error_InvalidCharacter.png)
+
+![alt text](https://github.com/asadprodhan/Filtering-out-invalid-characters-from-fastq-reads/blob/main/Error_InvalidCharacter.png)
+ 
  
  
  ## **How to filter out the incomplete fastq entries that lead to the above error?**
@@ -24,20 +27,21 @@ Bioawk is a popular bioinformatics tool. It can read and parse several sequence 
  
  
  
- ## **The Script **
+ ## **The Script**
  
  
  
  ![alt text](https://github.com/asadprodhan/Filtering-out-invalid-characters-from-fastq-reads/blob/main/TheBashScript.PNG)
  
  
- ## ** Usage **
+ 
+ ## **Usage**
  
  
 ./fixFastq sampleA.fastq
 
 
- ## ** Output **
+ ## **Output**
 
 The filtered out reads are saved as ‘sampleA_filtered.fastq’
 
