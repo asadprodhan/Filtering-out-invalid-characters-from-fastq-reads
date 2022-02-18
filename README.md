@@ -21,7 +21,7 @@ When the downstream algarithms such as ‘flye’ genome assembler reads the fas
  
  
  
-Bioawk is a popular bioinformatics tool. It can read and parse several sequence file formats including fastq. When Bioawk reads a fastq file, it appreas that it only reads the complete entries. Therefore, if we feed a raw fastq file to Bioawk, and then print the reads; we will end having the complete entries only. Any incomplete entries that may lead to the above error are filtered out.
+Bioawk is a popular bioinformatics tool. It can read and parse several sequence file formats including fastq. When Bioawk reads a fastq file, it appreas that it only reads the complete entries. Therefore, if we feed a raw fastq file to Bioawk, and then print out the reads; we will end having the complete entries only. Any incomplete entries that may lead to the above error are filtered out.
  
  <br />
  
