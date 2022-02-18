@@ -13,7 +13,7 @@ When the downstream algarithm such as ‘flye’ genome assembler reads the fast
 
 
 
- ![alt text]()
+ ![alt text](https://github.com/asadprodhan/Filtering-out-invalid-characters-from-fastq-reads/blob/main/Error_InvalidCharacter.png)
  
  
  ## **How to filter out the incomplete fastq entries that lead to the above error?**
