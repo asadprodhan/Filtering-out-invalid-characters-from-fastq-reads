@@ -9,7 +9,7 @@ A fastq read consists of four lines separated by tab. Line 1 is the ID of the re
 
 
 Among tens of thousands of sequenceing reads in fastq format, some may have one or more of these four lines missing- partially or entirely! 
-When the downstream algarithm such as ‘flye’ genome assembler reads the fastq entries and encounters any incompleteness in the expected four lines, it aborts with an error message ‘invalid characters while reading fastq file’. For example, it may look like as follows:
+When the downstream algarithms such as ‘flye’ genome assembler reads the fastq entries and encounters any incompleteness in the expected four lines, it aborts with an error message ‘invalid characters while reading fastq file’. For example, it may look like as follows:
 
 <br />
 
