@@ -56,6 +56,6 @@ echo "${Green}${Bold} Processed and saved as${reset} "${baseName}_filtered.fastq
 
 ## **Output**
 
-**The filtered out reads are saved as ‘sampleA_filtered.fastq’**
+**The fastq reads with complete entries are saved as ‘sampleA_filtered.fastq’**
 
 
