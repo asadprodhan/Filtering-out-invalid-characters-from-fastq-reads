@@ -28,7 +28,7 @@ Bioawk is a popular bioinformatics tool. It can read and parse several sequence 
  
  
  
- ![alt text]()
+ ![alt text](https://github.com/asadprodhan/Filtering-out-invalid-characters-from-fastq-reads/blob/main/TheBashScript.PNG)
  
  
  ## ** Usage **
