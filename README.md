@@ -31,7 +31,7 @@ Bioawk is a popular bioinformatics tool. It can read and parse several sequence 
  
  
  ```
- #!/usr/bin/env bash
+#!/usr/bin/env bash
 #textFormating
 Red="$(tput setaf 1)"
 Green="$(tput setaf 2)"
@@ -47,18 +47,18 @@ echo "${Green}${Bold} Processed and saved as${reset} "${baseName}_filtered.fastq
 ```
 
  
- ![alt text](https://github.com/asadprodhan/Filtering-out-invalid-characters-from-fastq-reads/blob/main/TheBashScript.PNG)
- 
- 
  
  ## **Usage**
  
- 
+
+```
 ./fixFastq sampleA.fastq
+```
+
 
 
  ## **Output**
 
-The filtered out reads are saved as ‘sampleA_filtered.fastq’
+**The filtered out reads are saved as ‘sampleA_filtered.fastq’**
 
 
